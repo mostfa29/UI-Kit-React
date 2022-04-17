@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import InvertedButton from "./Components/Buttons/InvertedButton/InvertedButton"
-import Button from './Components/Buttons/Button/Button';
+
+import Home from './Pages/Home/Home';
 function App() {
+
   return (
     <div className="App">
-    <InvertedButton name="click me"  click_bg_color='green' onClick={console.log('test')} />
-    <Button name="click me"/>
+<Home/>
     </div>
   );
 }

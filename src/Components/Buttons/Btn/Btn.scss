@@ -1,0 +1,119 @@
+.Button{
+//default button style
+.btn{
+    text-align: center;
+    background-color :#6E41E2;
+    color:white;
+    border:0px solid transparent;
+    width:150px;
+    height:50px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+//one text element inside button 
+.text{
+    text-align:center;
+}
+
+//multiple texts elems  shown under eachother 
+.text-under{
+    display:flex;
+    flex-direction: column;
+}
+
+
+//multiple texts elems  shown next to  eachother 
+
+.text-nexto{
+display: flex;
+flex-direction:row;
+justify-content: center;
+}
+
+//icon text types button elems for text and  icon value
+.text-icon-1,.text-icon-2,.text-icon-3{
+
+    display: flex;
+justify-content:space-between;
+
+}
+
+//show one or multiple text and one big icon
+.text-icon-1{
+    .icon{
+
+    }
+}
+
+//show a text and icon for every line
+.text-icon-2{
+    .line{
+        display: flex;
+        justify-content:space-between;  
+    .icon{
+
+    }
+    }
+}
+//show a small icon in top or bottom of a button
+.text-icon-3{
+//small icon in top corner of button
+    .icon-t{
+        width:10%;
+        height:10%;
+        top: 0;
+
+    }
+
+    //small icon in bottom corner of button
+
+    .icon-b{
+        width:10%;
+        height:10%;
+        bottom: 0;
+
+    }
+}
+//centred icon and small text in top or bottom or center of the button right or left 
+.icon-text{
+    .icon-text-c{
+
+    }
+    .icon-text-t{
+        
+    }
+    .icon-text-b{
+        
+    }
+}
+
+
+
+
+
+
+    }
+
+//button type inverted style
+.inverted{
+   background-color: transparent;
+   border: 1px solid #6E41E2;
+   color:#6E41E2
+}
+//button type noBorder style
+.noBorder{
+    background-color: transparent;
+    color:#6E41E2
+
+}
+//button type icon style
+.icon{
+    border:1px solid  #6E41E2;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+    
+
+}

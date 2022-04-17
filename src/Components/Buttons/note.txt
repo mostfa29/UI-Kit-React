@@ -1,0 +1,22 @@
+change the architecture of buttons
+
+(InvertedButton NoBorderButton IconButton)<<parents>>
+                ||
+                of
+                ||
+             (Button)
+
+
+Button (parent): (InvertedButton NoBorderButton IconButton) become its childs
+
+example to call InvertedButton
+
+you call Button and add a param of the button style if none selected the button style will be Button default style
+    
+     //make the architecture global for all components
+<< thinking of using HOC>>
+design an architecture help override/inherit Button events in (button child of other component) 
+design an architecture help override/inherit Button Types events in (button child of other component)
+
+
+            
